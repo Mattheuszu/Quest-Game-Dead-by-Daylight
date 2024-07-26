@@ -1,0 +1,79 @@
+article {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+a {
+  display: block;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f1f1f1;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #ddd;
+}
+
+img {
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  filter: grayscale(70%);
+  margin-bottom: 20px; 
+  border-radius: 5px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+img:hover {
+  filter: grayscale(50%);
+}
+
+audio {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%; 
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #f1f1f1; 
+  border-radius: 5px; 
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-pause-button {
+  color: #333; 
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display,
+audio::-webkit-media-controls-seek-back-button,
+audio::-webkit-media-controls-seek-forward-button {
+  color: #333; 
+}
+
+audio::-webkit-media-controls-timeline {
+  color: #333; 
+}
+
+audio::-webkit-media-controls-volume-slider-container {
+  color: #333; 
+}
+
+audio::-webkit-media-controls-mute-button,
+audio::-webkit-media-controls-volume-slider {
+  color: #333; 
+}
